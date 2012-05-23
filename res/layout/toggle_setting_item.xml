@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <View style="@style/PoolPal.Divider.Horizontal.List" />
+
+	<RelativeLayout android:id="@+id/button"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="8dp"
+	    android:paddingBottom="8dp"
+	    android:paddingLeft="16dp"
+	    android:paddingRight="16dp"
+	    style="@style/PoolPal.Widget.Button.Borderless" >
+
+	    <CheckBox android:id="@+id/value"
+		     android:layout_width="48dp"
+		     android:layout_height="48dp"
+		     android:layout_alignParentRight="true"
+		     android:layout_centerVertical="true"
+		     android:layout_marginLeft="16dp"
+		     android:button="@drawable/btn_check" />
+
+	    <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/title"
+		     android:layout_width="match_parent"
+		     android:layout_height="wrap_content"
+		     android:layout_alignParentTop="true"
+		     android:layout_alignParentLeft="true"
+		     android:layout_toLeftOf="@id/value"
+		     style="@style/PoolPal.Widget.TextView.Title" />
+
+		 <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/details"
+		     android:layout_width="match_parent"
+		     android:layout_height="wrap_content"
+		     android:layout_below="@id/title"
+		     android:layout_alignParentLeft="true"
+		     android:layout_toLeftOf="@id/value"
+		     style="@style/PoolPal.Widget.TextView.Details.List" />
+
+	</RelativeLayout>
+
+</LinearLayout>

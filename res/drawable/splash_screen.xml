@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <bitmap android:src="@drawable/iron_texture"
+		    android:tileMode="repeat"
+		    android:dither="false"
+		    android:filter="true" />
+    </item>
+
+    <item>
+        <bitmap android:src="@drawable/logo"
+            android:gravity="center" />
+    </item>
+
+</layer-list>

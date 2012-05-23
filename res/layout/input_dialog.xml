@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="32dp"
+    android:paddingBottom="32dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:gravity="center" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        style="@style/PoolPal.Widget.Dialog" >
+
+        <RelativeLayout android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_alignParentTop="true"
+            android:paddingRight="16dp"
+            android:paddingLeft="8dp"
+            android:background="@drawable/dialog_header" >
+
+            <ImageView android:id="@+id/icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="8dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ic_mascot"
+                android:contentDescription="@string/description_mascot" />
+
+		    <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/title"
+		        android:layout_width="match_parent"
+		        android:layout_height="64dp"
+		        android:layout_toRightOf="@id/icon"
+		        style="@style/PoolPal.Widget.TextView.Title.Dialog"
+		        android:gravity="left|center_vertical" />
+
+	    </RelativeLayout>
+
+	    <View android:id="@+id/divider"
+	        android:layout_below="@id/header"
+	    	style="@style/PoolPal.Divider.Horizontal.Dialog.Header" />
+
+	    <LinearLayout
+	        android:orientation="vertical"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/divider" >
+
+	        <LinearLayout android:id="@+id/body"
+	            android:orientation="vertical"
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	            android:layout_weight="1"
+	            android:background="@drawable/dialog_body" >
+
+			    <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/prompt"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="8dp"
+			        android:layout_marginBottom="8dp"
+			        android:paddingLeft="16dp"
+    				android:paddingRight="16dp"
+			        android:visibility="gone"
+			        style="@style/PoolPal.Widget.TextView.Details.Prompt" />
+
+			    <ViewStub android:id="@+id/stub"
+			        android:inflatedId="@+id/input"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content" />
+
+			    <ViewStub android:id="@+id/choice_stub"
+			        android:inflatedId="@+id/choice"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content" />
+
+			    <ViewStub android:id="@+id/progress_stub"
+			        android:inflatedId="@+id/progress"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content" />
+
+			</LinearLayout>
+
+	        <View style="@style/PoolPal.Divider.Horizontal.Dialog" />
+
+		    <LinearLayout android:id="@+id/footer"
+		        android:orientation="horizontal"
+		        android:layout_width="match_parent"
+		        android:layout_height="48dp" >
+
+		        <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/cancel"
+		            android:layout_width="match_parent"
+		            android:layout_height="48dp"
+		            android:layout_weight="1"
+		            android:text="@android:string/cancel"
+		            style="@style/PoolPal.Widget.Button.Dialog.Left" />
+
+		        <View style="@style/PoolPal.Divider.Vertical.Dialog" />
+
+		        <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/confirm"
+		            android:layout_width="match_parent"
+		            android:layout_height="48dp"
+		            android:layout_weight="1"
+		            android:text="@android:string/ok"
+		            style="@style/PoolPal.Widget.Button.Dialog.Right" />
+
+		    </LinearLayout>
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+</LinearLayout>

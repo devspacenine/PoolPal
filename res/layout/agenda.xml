@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+	    <LinearLayout
+	        android:orientation="vertical"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="16dp"
+	        android:paddingRight="16dp" >
+
+	        <TextView
+	            android:text="TODAY &amp; OLDER"
+	            style="@style/PoolPal.Widget.TextView.AgendaHeader" />
+
+	        <RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            style="@style/PoolPal.Widget.Button.Borderless" >
+
+	            <ImageView android:id="@+id/action_icon"
+	                android:src="@drawable/ic_label_chemistry"
+	                android:contentDescription="@string/description_test_water"
+	                style="@style/PoolPal.Widget.Image.AgendaAction" />
+
+	            <TextView android:id="@+id/action_time"
+	                android:text="3 d"
+	                style="@style/PoolPal.Widget.TextView.AgendaTime.Late" />
+
+	            <TextView android:id="@+id/action_title"
+	                android:layout_toRightOf="@id/action_icon"
+	                android:layout_toLeftOf="@id/action_time"
+	                android:text="Test Water"
+	                style="@style/PoolPal.Widget.TextView.AgendaTitle" />
+
+	            <TextView android:id="@+id/action_target"
+	                android:layout_toRightOf="@id/action_icon"
+	                android:layout_toLeftOf="@id/action_time"
+	                android:layout_below="@id/action_title"
+	                android:text="Home Pool"
+	                style="@style/PoolPal.Widget.TextView.AgendaTarget" />
+
+	        </RelativeLayout>
+
+	        <RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            style="@style/PoolPal.Widget.Button.Borderless" >
+
+	            <ImageView android:id="@+id/action_icon2"
+	                android:src="@drawable/ic_label_clean"
+	                android:contentDescription="@string/description_test_water"
+	                style="@style/PoolPal.Widget.Image.AgendaAction" />
+
+	            <TextView android:id="@+id/action_time2"
+	                android:text="6:00 PM"
+	                style="@style/PoolPal.Widget.TextView.AgendaTime" />
+
+	            <TextView android:id="@+id/action_title2"
+	                android:layout_toRightOf="@id/action_icon2"
+	                android:layout_toLeftOf="@id/action_time2"
+	                android:text="Clean Filters"
+	                style="@style/PoolPal.Widget.TextView.AgendaTitle" />
+
+	            <TextView android:id="@+id/action_target2"
+	                android:layout_toRightOf="@id/action_icon2"
+	                android:layout_toLeftOf="@id/action_time2"
+	                android:layout_below="@id/action_title2"
+	                android:text="Home Pool"
+	                style="@style/PoolPal.Widget.TextView.AgendaTarget" />
+
+	        </RelativeLayout>
+
+	        <RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            style="@style/PoolPal.Widget.Button.Borderless" >
+
+	            <ImageView android:id="@+id/action_icon3"
+	                android:src="@drawable/ic_label_timer"
+	                android:contentDescription="@string/description_test_water"
+	                style="@style/PoolPal.Widget.Image.AgendaAction" />
+
+	            <TextView android:id="@+id/action_time3"
+	                android:text="32 min"
+	                style="@style/PoolPal.Widget.TextView.AgendaTime.Timer" />
+
+	            <TextView android:id="@+id/action_title3"
+	                android:layout_toRightOf="@id/action_icon3"
+	                android:layout_toLeftOf="@id/action_time3"
+	                android:text="Shock Warning"
+	                style="@style/PoolPal.Widget.TextView.AgendaTitle" />
+
+	            <TextView android:id="@+id/action_target3"
+	                android:layout_toRightOf="@id/action_icon3"
+	                android:layout_toLeftOf="@id/action_time3"
+	                android:layout_below="@id/action_title3"
+	                android:text="Home Pool"
+	                style="@style/PoolPal.Widget.TextView.AgendaTarget" />
+
+	        </RelativeLayout>
+
+	    </LinearLayout>
+
+	    <LinearLayout
+	        android:orientation="vertical"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="16dp"
+	        android:paddingRight="16dp" >
+
+	        <TextView
+	            android:text="WED, FEB 22, 2012"
+	            style="@style/PoolPal.Widget.TextView.AgendaHeader" />
+
+	        <RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            style="@style/PoolPal.Widget.Button.Borderless" >
+
+	            <ImageView android:id="@+id/action_icon4"
+	                android:src="@drawable/ic_label_shock"
+	                android:contentDescription="@string/description_test_water"
+	                style="@style/PoolPal.Widget.Image.AgendaAction" />
+
+	            <TextView android:id="@+id/action_time4"
+	                android:text="6:00 PM"
+	                style="@style/PoolPal.Widget.TextView.AgendaTime" />
+
+	            <TextView android:id="@+id/action_title4"
+	                android:layout_toRightOf="@id/action_icon4"
+	                android:layout_toLeftOf="@id/action_time4"
+	                android:text="Shock Pool"
+	                style="@style/PoolPal.Widget.TextView.AgendaTitle" />
+
+	            <TextView android:id="@+id/action_target4"
+	                android:layout_toRightOf="@id/action_icon4"
+	                android:layout_toLeftOf="@id/action_time4"
+	                android:layout_below="@id/action_title4"
+	                android:text="Home Pool"
+	                style="@style/PoolPal.Widget.TextView.AgendaTarget" />
+
+	        </RelativeLayout>
+
+	        <RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            style="@style/PoolPal.Widget.Button.Borderless" >
+
+	            <ImageView android:id="@+id/action_icon5"
+	                android:src="@drawable/ic_label_chemistry"
+	                android:contentDescription="@string/description_test_water"
+	                style="@style/PoolPal.Widget.Image.AgendaAction" />
+
+	            <TextView android:id="@+id/action_time5"
+	                android:text="5:30 PM"
+	                style="@style/PoolPal.Widget.TextView.AgendaTime" />
+
+	            <TextView android:id="@+id/action_title5"
+	                android:layout_toRightOf="@id/action_icon5"
+	                android:layout_toLeftOf="@id/action_time5"
+	                android:text="Test Water"
+	                style="@style/PoolPal.Widget.TextView.AgendaTitle" />
+
+	            <TextView android:id="@+id/action_target5"
+	                android:layout_toRightOf="@id/action_icon5"
+	                android:layout_toLeftOf="@id/action_time5"
+	                android:layout_below="@id/action_title5"
+	                android:text="Home Spa"
+	                style="@style/PoolPal.Widget.TextView.AgendaTarget" />
+
+	        </RelativeLayout>
+
+	        <RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            style="@style/PoolPal.Widget.Button.Borderless" >
+
+	            <ImageView android:id="@+id/action_icon6"
+	                android:src="@drawable/ic_label_calendar"
+	                android:contentDescription="@string/description_test_water"
+	                style="@style/PoolPal.Widget.Image.AgendaAction" />
+
+	            <TextView android:id="@+id/action_time6"
+	                android:text="6:00 PM"
+	                style="@style/PoolPal.Widget.TextView.AgendaTime" />
+
+	            <TextView android:id="@+id/action_title6"
+	                android:layout_toRightOf="@id/action_icon6"
+	                android:layout_toLeftOf="@id/action_time6"
+	                android:text="Buy Chlorine Tablets"
+	                style="@style/PoolPal.Widget.TextView.AgendaTitle" />
+
+	            <TextView android:id="@+id/action_target6"
+	                android:layout_toRightOf="@id/action_icon6"
+	                android:layout_toLeftOf="@id/action_time6"
+	                android:layout_below="@id/action_title6"
+	                android:text="Home Spa"
+	                style="@style/PoolPal.Widget.TextView.AgendaTarget" />
+
+	        </RelativeLayout>
+
+	    </LinearLayout>
+
+	</LinearLayout>
+
+</ScrollView>

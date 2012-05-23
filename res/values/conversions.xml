@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <item name="feet_to_meters" format="float" type="dimen">0.3048</item>
+    <item name="meters_to_feet" format="float" type="dimen">3.28084</item>
+    <item name="gallons_to_liters" format="float" type="dimen">3.78541</item>
+    <item name="liters_to_gallons" format="float" type="dimen">0.26417</item>
+    <item name="conductivity_to_tds" format="float" type="dimen">0.67</item>
+    <item name="tds_to_conductivity" format="float" type="dimen">1.49254</item>
+    
+</resources>

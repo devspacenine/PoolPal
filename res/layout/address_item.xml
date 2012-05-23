@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:listPreferredItemHeight"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/btn_borderless_square"
+    android:gravity="center" >
+
+    <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/line1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    style="@style/PoolPal.Widget.TextView.Title"
+	    android:gravity="left" />
+
+    <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/line2"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    style="@style/PoolPal.Widget.TextView.Title"
+	    android:gravity="left" />
+
+</LinearLayout>

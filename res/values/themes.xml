@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.PoolPal" parent="@style/Theme.Sherlock.Light">
+        <item name="android:windowBackground">@drawable/background_texture</item>
+        <item name="actionBarStyle">@style/PoolPal.Widget.ActionBar</item>
+        <item name="actionBarSize">56dp</item>
+        <item name="actionBarTabStyle">@style/PoolPal.Widget.ActionBar.TabView</item>
+        <item name="actionBarTabBarStyle">@style/PoolPal.Widget.ActionBar.TabBar</item>
+        <item name="actionBarTabTextStyle">@style/PoolPal.Widget.ActionBar.TabText</item>
+        <item name="absForceOverflow">true</item>
+
+        <item name="android:colorForeground">@color/bright_foreground</item>
+        <item name="android:colorForegroundInverse">@color/bright_foreground_inverse</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:colorBackgroundCacheHint">@android:color/transparent</item>
+        <item name="android:disabledAlpha">0.5</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+
+        <!-- Text Styles -->
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:textColorSecondary">@color/secondary_text</item>
+        <item name="android:textColorTertiary">@color/tertiary_text</item>
+        <item name="android:textColorPrimaryInverse">@color/primary_text_inverse</item>
+        <item name="android:textColorSecondaryInverse">@color/secondary_text_inverse</item>
+        <item name="android:textColorTertiaryInverse">@color/tertiary_text_inverse</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/primary_text_disable_only</item>
+        <item name="android:textColorPrimaryInverseDisableOnly">@color/primary_text_inverse_disable_only</item>
+        <item name="android:textColorPrimaryNoDisable">@color/primary_text_nodisable</item>
+        <item name="android:textColorSecondaryNoDisable">@color/secondary_text_nodisable</item>
+        <item name="android:textColorPrimaryInverseNoDisable">@color/primary_text_inverse_nodisable</item>
+        <item name="android:textColorSecondaryInverseNoDisable">@color/secondary_text_inverse_nodisable</item>
+        <item name="android:textColorHint">@color/hint_text</item>
+        <item name="android:textColorHintInverse">@color/hint_text_inverse</item>
+        <item name="android:textColorHighlight">@color/highlighted_text</item>
+        <item name="android:textColorLink">@color/blue_light</item>
+
+        <item name="android:textAppearanceLarge">@android:style/TextAppearance.Large</item>
+        <item name="android:textAppearanceMedium">@android:style/TextAppearance.Medium</item>
+        <item name="android:textAppearanceSmall">@android:style/TextAppearance.Small</item>
+        <item name="android:textAppearanceLargeInverse">@android:style/TextAppearance.Large.Inverse</item>
+        <item name="android:textAppearanceMediumInverse">@android:style/TextAppearance.Medium.Inverse</item>
+        <item name="android:textAppearanceSmallInverse">@android:style/TextAppearance.Small.Inverse</item>
+        <item name="android:textAppearanceSearchResultTitle">@android:style/TextAppearance.SearchResult.Title</item>
+        <item name="android:textAppearanceSearchResultSubtitle">@android:style/TextAppearance.SearchResult.Subtitle</item>
+
+        <item name="android:textAppearanceButton">@android:style/TextAppearance.Widget.Button</item>
+
+        <item name="android:candidatesTextStyleSpans">@string/candidates_style</item>
+
+        <item name="android:textCheckMark">@drawable/indicator_check_mark</item>
+        <item name="android:textCheckMarkInverse">@drawable/indicator_check_mark</item>
+
+        <item name="android:buttonStyleSmall">@style/PoolPal.Widget.Button.Small</item>
+        <item name="android:buttonStyleInset">@style/PoolPal.Widget.Button.Inset</item>
+
+        <item name="android:buttonStyleToggle">@style/PoolPal.Widget.Button.Toggle</item>
+
+        <!-- List Attributes -->
+        <item name="android:listPreferredItemHeight">64dp</item>
+
+        <item name="android:listDivider">@drawable/list_divider</item>
+        <item name="android:listSeparatorTextViewStyle">@style/PoolPal.Widget.TextView.ListSeparator</item>
+
+        <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check</item>
+
+        <item name="android:expandableListPreferredItemPaddingLeft">40dp</item>
+        <item name="android:expandableListPreferredChildPaddingLeft">
+                ?android:attr/expandableListPreferredItemPaddingLeft</item>
+
+        <item name="android:expandableListPreferredItemIndicatorLeft">3dp</item>
+        <item name="android:expandableListPreferredItemIndicatorRight">0dp</item>
+        <item name="android:expandableListPreferredChildIndicatorLeft">
+                ?android:attr/expandableListPreferredItemIndicatorLeft</item>
+        <item name="android:expandableListPreferredChildIndicatorRight">
+                ?android:attr/expandableListPreferredItemIndicatorRight</item>
+
+        <item name="android:galleryItemBackground">@drawable/gallery_item_background</item>
+
+        <!-- Window Attributes -->
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@drawable/ab_solid_shadow</item>
+        <item name="android:windowShowWallpaper">false</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Activity</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustUnspecified</item>
+
+        <!-- Dialog Attributes -->
+        <item name="android:alertDialogStyle">@style/PoolPal.Widget.AlertDialog</item>
+
+        <!-- Panel attributes -->
+        <item name="android:panelBackground">@drawable/menu_hardkey_panel</item>
+        <item name="android:panelFullBackground">@drawable/menu_background_fill_parent_width</item>
+        <!-- These three attributes do not seems to be used by the framework. Declared public though -->
+        <item name="android:panelColorBackground">@color/black</item>
+        <item name="android:panelColorForeground">?android:attr/textColorPrimary</item>
+        <item name="android:panelTextAppearance">?android:attr/textAppearance</item>
+
+        <!-- Scrollbar attributes -->
+        <item name="android:scrollbarFadeDuration">250</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">300</item>
+        <item name="android:scrollbarSize">10dp</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/scrollbar_handle</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_handle</item>
+        <item name="android:scrollbarTrackHorizontal">@null</item>
+        <item name="android:scrollbarTrackVertical">@null</item>
+
+        <!-- Widget styles -->
+        <item name="android:absListViewStyle">@android:style/Widget.AbsListView</item>
+        <item name="android:autoCompleteTextViewStyle">@android:style/Widget.AutoCompleteTextView</item>
+        <item name="android:checkboxStyle">@android:style/Widget.CompoundButton.CheckBox</item>
+        <item name="android:dropDownListViewStyle">@android:style/Widget.ListView.DropDown</item>
+        <item name="android:expandableListViewStyle">@android:style/Widget.ExpandableListView</item>
+        <item name="android:galleryStyle">@android:style/Widget.Gallery</item>
+        <item name="android:gridViewStyle">@android:style/Widget.GridView</item>
+        <item name="android:imageButtonStyle">@android:style/Widget.ImageButton</item>
+        <item name="android:imageWellStyle">@android:style/Widget.ImageWell</item>
+        <item name="android:listViewWhiteStyle">@android:style/Widget.ListView.White</item>
+        <item name="android:popupWindowStyle">@android:style/Widget.PopupWindow</item>
+        <item name="android:progressBarStyle">@android:style/Widget.ProgressBar</item>
+        <item name="android:progressBarStyleHorizontal">@android:style/Widget.ProgressBar.Horizontal</item>
+        <item name="android:progressBarStyleSmall">@android:style/Widget.ProgressBar.Small</item>
+        <item name="android:progressBarStyleLarge">@android:style/Widget.ProgressBar.Large</item>
+        <item name="android:progressBarStyleInverse">@android:style/Widget.ProgressBar.Inverse</item>
+        <item name="android:progressBarStyleSmallInverse">@android:style/Widget.ProgressBar.Small.Inverse</item>
+        <item name="android:progressBarStyleLargeInverse">@android:style/Widget.ProgressBar.Large.Inverse</item>
+        <item name="android:ratingBarStyle">@android:style/Widget.RatingBar</item>
+        <item name="android:radioButtonStyle">@android:style/Widget.CompoundButton.RadioButton</item>
+        <item name="android:scrollViewStyle">@android:style/Widget.ScrollView</item>
+        <item name="android:starStyle">@android:style/Widget.CompoundButton.Star</item>
+        <item name="android:tabWidgetStyle">@style/PoolPal.Widget.TabWidget</item>
+        <item name="android:textViewStyle">@android:style/Widget.TextView</item>
+        <item name="android:webViewStyle">@android:style/Widget.WebView</item>
+        <item name="android:dropDownItemStyle">@android:style/Widget.DropDownItem</item>
+        <item name="android:spinnerDropDownItemStyle">@android:style/Widget.DropDownItem.Spinner</item>
+        <item name="android:spinnerItemStyle">@android:style/Widget.TextView.SpinnerItem</item>
+        <item name="android:dropDownHintAppearance">@android:style/TextAppearance.Widget.DropDownHint</item>
+
+        <!-- Preference styles -->
+        <item name="android:preferenceScreenStyle">@style/PoolPal.Preference.PreferenceScreen</item>
+        <item name="android:preferenceCategoryStyle">@style/PoolPal.Preference.Category</item>
+        <item name="android:preferenceStyle">@style/PoolPal.Preference</item>
+        <item name="android:preferenceInformationStyle">@style/PoolPal.Preference.Information</item>
+        <item name="android:checkBoxPreferenceStyle">@style/PoolPal.Preference.CheckBoxPreference</item>
+        <item name="android:yesNoPreferenceStyle">@style/PoolPal.Preference.DialogPreference.YesNoPreference</item>
+        <item name="android:dialogPreferenceStyle">@style/PoolPal.Preference.DialogPreference</item>
+        <item name="android:editTextPreferenceStyle">@style/PoolPal.Preference.DialogPreference.EditTextPreference</item>
+        <item name="android:ringtonePreferenceStyle">@style/PoolPal.Preference.RingtonePreference</item>
+        <item name="android:preferenceLayoutChild">@layout/preference_child</item>
+
+        <!-- Altered styles -->
+        <item name="android:buttonStyle">@style/PoolPal.Widget.Button.Borderless</item>
+        <item name="android:listViewStyle">@style/PoolPal.Widget.ListView</item>
+        <item name="android:editTextStyle">@style/PoolPal.Widget.EditText</item>
+        <item name="android:seekBarStyle">@style/PoolPal.Widget.SeekBar</item>
+        <item name="android:spinnerStyle">@style/PoolPal.Widget.Spinner</item>
+    </style>
+
+    <style name="Theme.PoolPal.Dialog" parent="@android:style/Theme.Light">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle.Sherlock.Light</item>
+        <item name="android:windowBackground">@drawable/dialog_window</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimAmount">0.7</item>
+
+        <item name="android:colorBackgroundCacheHint">@null</item>
+
+        <item name="android:textColorPrimary">@color/abs__primary_text_holo_light</item>
+        <item name="android:textColorPrimaryInverse">@color/abs__primary_text_holo_dark</item>
+        <item name="android:textColorHint">@color/hint_text</item>
+
+        <item name="android:buttonStyle">@style/PoolPal.Widget.Button.Borderless</item>
+        <item name="android:listViewStyle">@style/PoolPal.Widget.ListView</item>
+        <item name="android:editTextStyle">@style/PoolPal.Widget.EditText</item>
+        <item name="android:seekBarStyle">@style/PoolPal.Widget.SeekBar</item>
+        <item name="android:spinnerStyle">@style/PoolPal.Widget.Spinner</item>
+        <item name="android:listPreferredItemHeight">64dp</item>
+        <item name="android:listDivider">@drawable/list_divider</item>
+        <item name="android:listSeparatorTextViewStyle">@style/PoolPal.Widget.TextView.ListSeparator</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check</item>
+
+        <item name="windowMinWidthMajor">@dimen/abs__dialog_min_width_major</item>
+        <item name="windowMinWidthMinor">@dimen/abs__dialog_min_width_minor</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme.PoolPal.HomeAsUp">
+        <item name="actionBarStyle">@style/PoolPal.Widget.ActionBar.HomeAsUp</item>
+    </style>
+
+    <style name="Theme.PoolPal.Dashboard">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme.PoolPal.Transparent" parent="@style/Theme.PoolPal.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.7</item>
+        <item name="android:windowSoftInputMode">stateUnspecified</item>
+    </style>
+
+</resources>

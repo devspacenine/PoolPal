@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PoolPal</string>
+    <string name="blank"></string>
+    <string name="value">value</string>
+    <string name="label">label</string>
+
+    <!-- Actions -->
+    <string name="action_edit">Edit Action</string>
+    <string name="action_open">Open Action</string>
+    <string name="action_toggle">Toggle Action</string>
+
+    <!-- Menu Titles -->
+    <string name="alerts">Alerts</string>
+    <string name="preferences">Preferences</string>
+    <string name="view_logs">View Logs</string>
+    <string name="about">About</string>
+    <string name="feedback">Feedback</string>
+
+    <!-- ActionBar Titles -->
+    <string name="ab_pool_profile">Pool Profile</string>
+    <string name="ab_edit_pool">Edit</string>
+    <string name="ab_new_pool">New Pool</string>
+    <string name="poolpal_setup">PoolPal Setup</string>
+    <string name="ab_water_chemistry">Water Chemistry</string>
+
+    <!-- View Category Titles -->
+    <string name="poolpedia">PoolPedia</string>
+    <string name="troubleshoot">Troubleshoot</string>
+    <string name="agenda">Agenda</string>
+    <string name="calculator">Calculator</string>
+    <string name="shop">Shop</string>
+    <string name="charts">Charts</string>
+    <string name="settings">Settings</string>
+    <string name="supplies">Supplies</string>
+
+    <!-- Section Titles -->
+    <string name="section_pool">POOL</string>
+    <string name="section_water_balance">WATER CHEMISTRY</string>
+    <string name="setup_pool">Setup Your Pool</string>
+    <string name="setup_pool_details">Required info for PoolPal\'s calculations and recomendations</string>
+
+    <!-- Task Titles -->
+    <string name="title_general_maintenance">General Maintenance</string>
+    <string name="title_cleaning">Cleaning</string>
+    <string name="title_shock_treatment">Shock Treatment</string>
+    <string name="title_ph_up_treatment">pH Up Treatment</string>
+    <string name="title_ph_down_treatment">pH Down Treatment</string>
+    <string name="title_alkalinity_up_treatment">Alkalinity Up Treatment</string>
+    <string name="title_alkalinity_down_treatment">Alkalinity Down Treatment</string>
+    <string name="title_stabilizer_up_treatment">Stabilizer Up Treatment</string>
+    <string name="title_hardness_up_treatment">Hardness Up Treatment</string>
+    <string name="title_algaecide_treatment">Algaecide Treatment</string>
+    <string name="title_metal_treatment">Metal Treatment</string>
+    <string name="title_clarifier_treatment">Clarifier Treatment</string>
+    <string name="title_water_tests">Water Tests</string>
+    <string name="title_basic_water_tests">Chlorine, Ph &amp; Alkalinity Tests</string>
+    <string name="title_common_water_tests">Stabilizer, TDS &amp; Other Common Tests</string>
+    <string name="title_long_term_water_tests">Hardness &amp; Saturation Index Tests</string>
+    <string name="title_filter_maintenance">Filter Maintenance</string>
+    <string name="title_filter_clean">Filter Cleaning</string>
+    <string name="title_filter_replacement">Filter Replacement</string>
+
+    <!-- Task Messages -->
+    <string name="message_general_maintenance">General Maintenance</string>
+    <string name="message_cleaning">Cleaning</string>
+    <string name="message_shock_treatment">Shock Treatment</string>
+    <string name="message_ph_up_treatment">pH Up Treatment</string>
+    <string name="message_ph_down_treatment">pH Down Treatment</string>
+    <string name="message_alkalinity_up_treatment">Alkalinity Up Treatment</string>
+    <string name="message_alkalinity_down_treatment">Alkalinity Down Treatment</string>
+    <string name="message_stabilizer_up_treatment">Stabilizer Up Treatment</string>
+    <string name="message_hardness_up_treatment">Hardness Up Treatment</string>
+    <string name="message_algaecide_treatment">Algaecide Treatment</string>
+    <string name="message_metal_treatment">Metal Treatment</string>
+    <string name="message_clarifier_treatment">Clarifier Treatment</string>
+    <string name="message_water_tests">Water Tests</string>
+    <string name="message_basic_water_tests">Chlorine, Ph &amp; Alkalinity Tests</string>
+    <string name="message_common_water_tests">Stabilizer, TDS &amp; Other Common Tests</string>
+    <string name="message_long_term_water_tests">Hardness &amp; Saturation Index Tests</string>
+    <string name="message_filter_maintenance">Filter Maintenance</string>
+    <string name="message_filter_clean">Filter Cleaning</string>
+    <string name="message_filter_replacement">Filter Replacement</string>
+
+    <!-- Dialog Titles -->
+    <string name="dialog_chlorine_input">Free Chlorine</string>
+    <string name="dialog_ph_input">pH</string>
+    <string name="dialog_alkalinity_input">Total Alkalinity</string>
+    <string name="dialog_hardness_input">Calcium Hardness</string>
+    <string name="dialog_stabilizer_input">Stabilizer/Conditioner/CYA</string>
+    <string name="dialog_temperature_input">Temperature</string>
+    <string name="title_welcome">Welcome to PoolPal</string>
+    <string name="title_continue_editing">Continue Editing?</string>
+    <string name="title_set_image">Set Pool Image</string>
+
+    <!-- Button Labels -->
+    <string name="btn_get_plan">Get Plan</string>
+    <string name="btn_log">Log</string>
+    <string name="btn_tasks">Tasks</string>
+    <string name="btn_notifications">Notifications</string>
+    <string name="capital_off">OFF</string>
+    <string name="capital_on">ON</string>
+    <string name="new_pool">New Pool</string>
+    <string name="water_chemistry">Water Chemistry</string>
+    <string name="supply_costs">Supply Costs</string>
+    <string name="current_location">GPS</string>
+    <string name="get_started">Get Started</string>
+    <string name="take_tour">Take A Tour</string>
+    <string name="save_values">Save Values</string>
+    <string name="finish">Finish</string>
+    <string name="add_more">Add More</string>
+    <string name="btn_info">Info</string>
+    <string name="btn_tasks">Tasks</string>
+    <string name="btn_charts">Charts</string>
+    <string name="search_again">Search Again</string>
+
+    <!-- Form Titles, Labels & Details -->
+    <string name="title_pool_details">POOL DETAILS</string>
+    <string name="title_location">LOCATION</string>
+    <string name="title_dimensions">DIMENSIONS</string>
+    <string name="title_hardware">HARDWARE, SYSTEMS &amp; STRUCTURE</string>
+    <string name="title_tasks">SCHEDULES &amp; TASKS</string>
+    <string name="title_notifications">NOTIFICATIONS</string>
+    <string name="title_info">INFO</string>
+    <string name="title_accessories">ACCESSORIES &amp; AMENITIES</string>
+    <string name="title_repitition">TASK REPITITION</string>
+    <string name="title_reminders">REMINDERS</string>
+
+    <string name="lbl_dimensions">Dimensions</string>
+    <string name="lbl_chlorine">Chlorine</string>
+    <string name="lbl_ph">pH</string>
+    <string name="lbl_alkalinity">Alkalinity</string>
+    <string name="lbl_hardness">Hardness</string>
+    <string name="lbl_temperature">Temperature</string>
+    <string name="lbl_stabilizer">Stabilizer</string>
+    <string name="lbl_name">Nickname</string>
+    <string name="lbl_volume">Volume</string>
+    <string name="lbl_address">Address</string>
+    <string name="lbl_city">City</string>
+    <string name="lbl_state">State</string>
+    <string name="lbl_zip_code">Zip Code</string>
+    <string name="lbl_default_pool">Default Pool</string>
+    <string name="lbl_pool_locale">Locale</string>
+    <string name="lbl_pool_finish">Pool Finish</string>
+    <string name="lbl_pump">Pump</string>
+    <string name="lbl_sanitizer">Sanitizer Type</string>
+    <string name="lbl_filter">Filter Type</string>
+    <string name="lbl_traffic">Traffic Volume</string>
+    <string name="lbl_cleaner">Pool Cleaner</string>
+    <string name="lbl_water_type">Water Type</string>
+    <string name="lbl_min">Shallow</string>
+    <string name="lbl_depth">Depth</string>
+    <string name="lbl_max">Deep</string>
+    <string name="lbl_tiling">Tiling</string>
+    <string name="lbl_pool_cover">Pool Cover</string>
+    <string name="lbl_attached_spa">Attached Spa</string>
+    <string name="lbl_heater">Heater</string>
+    <string name="lbl_diving_board">Diving Board</string>
+    <string name="lbl_slide">Slide</string>
+    <string name="lbl_ladder">Ladder Access</string>
+    <string name="lbl_fountains">Fountains</string>
+    <string name="lbl_rock_waterfall">Rock Waterfall</string>
+    <string name="lbl_lights">Lights</string>
+    <string name="lbl_infinity_edge">Infinity Edge</string>
+    <string name="lbl_sporting_equipment">Sporting Equipment</string>
+    <string name="lbl_beach_entry">Beach Entry</string>
+    <string name="lbl_sand">Sand</string>
+    <string name="lbl_water_tests">Water Tests</string>
+    <string name="lbl_filter_maintenance">Filter Maintenance</string>
+    <string name="lbl_general_maintenance">General Maintenance</string>
+    <string name="lbl_custom_tasks">Custom Tasks</string>
+    <string name="lbl_notifications">Notification Settings</string>
+    <string name="lbl_hardware">Hardware, Systems &amp; Structure</string>
+    <string name="lbl_accessories">Accessories &amp; Amenities</string>
+    <string name="lbl_weather_notifications">Weather</string>
+    <string name="lbl_water_test_reminders">Water Test</string>
+    <string name="lbl_filter_reminders">Filter Maintenance</string>
+    <string name="lbl_safety_notifications">Water Safety</string>
+    <string name="lbl_maintenance_reminders">General Maintenance</string>
+    <string name="lbl_custom_reminders">Custom Tasks</string>
+    <string name="lbl_coupon_notifications">Coupons &amp; Deals</string>
+    <string name="lbl_task_title">Title</string>
+	<string name="lbl_task_message">Message</string>
+	<string name="lbl_task_repitition">Repitition</string>
+	<string name="lbl_task_date">Date</string>
+	<string name="lbl_task_next_on_completion">Create Next On Completion</string>
+	<string name="lbl_task_reminder">Reminder</string>
+	<string name="lbl_task_new_reminder">Create New Reminder</string>
+	<string name="lbl_task_late_reminders">Late Reminders</string>
+	<string name="lbl_task_timer">Timer</string>
+	<string name="lbl_task_timer_duration">Duration</string>
+	<string name="lbl_task_timer_notification">Timer Notification</string>
+	<string name="lbl_task_timer_message">Timer Message</string>
+	<string name="lbl_task_item">Item</string>
+	<string name="lbl_task_favorite">Favorite</string>
+
+    <string name="details_name">Give your pool a nickname</string>
+    <string name="details_dimensions">Set the dimensions of your pool</string>
+    <string name="details_volume">Set this pool\'s volume</string>
+    <string name="details_depth">Set this pool\'s min and max depth</string>
+    <string name="details_pool_locale">Set this pool\'s locale on the property</string>
+    <string name="details_address">Set this pool\'s physical location</string>
+    <string name="prompt_set_image">Choose an option</string>
+    <string name="details_water_tests">Set water testing schedules for this pool</string>
+    <string name="details_filter_maintenance">Set filter maintenance schedules for this pool</string>
+    <string name="details_general_maintenance">Set general maintenance schedules for this pool</string>
+    <string name="details_custom_tasks">Manage custom tasks for this pool</string>
+    <string name="details_notifications">Manage how PoolPal notifies you about important alerts and reminders</string>
+    <string name="details_hardware">Pool features that help PoolPal troubleshoot and make accurate calculations</string>
+    <string name="details_traffic">Set this pool\'s traffic volume</string>
+    <string name="details_finish">Set this pool\'s finish type</string>
+    <string name="details_sanitizer">Set this pool\'s sanitizer type</string>
+    <string name="details_pump">Set this pool\'s pump model</string>
+    <string name="details_filter">Set this pool\'s filter type</string>
+    <string name="details_cleaner">Set this pool\'s automatic cleaner model</string>
+    <string name="details_accessories">Extra information that helps PoolPal make accurate care and maintenance suggestions</string>
+    <string name="details_weather_notification">Enable notifications for weather warnings about this pool</string>
+    <string name="details_water_test_reminder">Enable notifications for water testing reminders</string>
+    <string name="details_filter_reminder">Enable notifications for filter maintenance reminders</string>
+    <string name="details_safety_notification">Enable notifications for water safety timers</string>
+    <string name="details_maintenance_reminder">Enable notifications for general maintenance reminders</string>
+    <string name="details_custom_reminder">Enable notifications for this pool\'s custom task reminders</string>
+    <string name="details_coupon_notification">Enable notifications about deals and coupons on pool supplies you use</string>
+    <string name="details_task_title">Give this task a title</string>
+	<string name="details_task_message">Set a message for this task and it\'s reminders</string>
+	<string name="details_task_repitition">How often will this task repeat</string>
+	<string name="details_task_date">Set the date of this task</string>
+	<string name="details_task_next_on_completion">Wait until this task is marked complete to set the next date</string>
+	<string name="details_task_reminders">Reminders</string>
+	<string name="details_task_new_reminder">Create a new reminder for this task</string>
+	<string name="details_task_late_reminders">Keep using reminders under 24 hours when this task is late</string>
+	<string name="details_task_timer">Start a timer when this task is marked as complete</string>
+	<string name="details_task_timer_duration">Set a duration for this task\'s timer</string>
+	<string name="details_task_timer_notification">Notify in status bar when timer is finished</string>
+	<string name="details_task_timer_message">Set a message for this task\'s timer</string>
+	<string name="details_task_item">Link this task to an item in the store</string>
+	<string name="details_task_favorite">Link this task to a favorite order</string>
+    <string name="waiting_for_gps">Searching for your address&#8230;</string>
+    <string name="waiting_for_more_gps">Searching for more&#8230;</string>
+    <string name="continue_editing">Your first pool has been set up. Would you like to add extra details to help PoolPal make more accurate calculations and suggestions?</string>
+
+    <!-- Input values -->
+    <string name="val_chlorine">%1$s ppm</string>
+    <string name="val_ph">%1$s</string>
+    <string name="val_alkalinity">%1$s ppm</string>
+    <string name="val_hardness">%1$s ppm</string>
+    <string name="val_stabilizer">%1$s ppm</string>
+    <string name="val_temperature">%1$s &#176;F</string>
+    <string name="val_temperature_celsius">%1$s &#176;C</string>
+
+    <!-- Form Prompts -->
+    <string name="introduction">A simple, diverse tool for managing swimming pool maintenance and expenses.</string>
+    <string name="prompt_dimensions">Set the physical dimensions</string>
+    <string name="prompt_depth">Set the minimum and maximum depth</string>
+    <string name="prompt_volume">Set the volume</string>
+    <string name="choose_address">Choose an address from the list</string>
+
+    <!-- Hints -->
+    <string name="hint_pool_name">Nickname</string>
+    <string name="hint_volume">Volume</string>
+    <string name="hint_address">Street</string>
+    <string name="hint_brand">Brand</string>
+    <string name="hint_model">Model</string>
+    <string name="hint_address_line_one">Street address, P.O. box, etc.</string>
+    <string name="hint_address_line_two">Apt, suite, etc.</string>
+    <string name="hint_address_city">City</string>
+    <string name="hint_address_zip">ZIP/Postal Code</string>
+    <string name="hint_address_state">State</string>
+
+    <!-- List Dividers -->
+    <string name="dvd_pool_details">Pool Details</string>
+    <string name="dvd_pool_accessories">Pool Accessories</string>
+
+    <!-- Dimension Labels -->
+    <string name="dim_volume_imperial">g</string>
+    <string name="dim_volume_metric">l</string>
+    <string name="dim_length_imperial">ft</string>
+    <string name="dim_length_metric">m</string>
+    <string name="dim_am">am</string>
+    <string name="dim_pm">pm</string>
+    <string name="dim_second">s</string>
+    <string name="dim_minute">min</string>
+    <string name="dim_hour">hr</string>
+    <string name="dim_day">d</string>
+    <string name="dim_chlorine">ppm</string>
+    <string name="dim_alkalinity">ppm</string>
+    <string name="dim_hardness">ppm</string>
+    <string name="dim_cya">ppm</string>
+    <string name="dim_tds">ppm</string>
+    <string name="dim_temp_metric">&#176;C</string>
+    <string name="dim_temp_imperial">&#176;F</string>
+    <string name="dim_conductivity">&#181;S/cm</string>
+    <string name="dim_conductivity_alt">&#181;mho/cm</string>
+
+    <!-- Tags -->
+    <string name="tag_chlorine">chlorine</string>
+    <string name="tag_ph">ph</string>
+    <string name="tag_alkalinity">alkalinity</string>
+    <string name="tag_hardness">hardness</string>
+    <string name="tag_stabilizer">stabilizer</string>
+    <string name="tag_temperature">temperature</string>
+
+    <!-- Health states -->
+    <string name="health_perfect">Perfect</string>
+    <string name="health_dangerous">Dangerous</string>
+    <string name="health_dirty">Low Chlorine</string>
+    <string name="health_scale">Scale Forming</string>
+    <string name="health_good">Good</string>
+    <string name="health_erosion">Erosion Danger</string>
+    <string name="health_shock">Recently Shocked</string>
+
+    <!-- Content Descriptions -->
+    <string name="description_btn_edit">Edit Button</string>
+    <string name="description_water_chemistry">Water Chemistry Calculator</string>
+    <string name="description_location">Location</string>
+    <string name="description_test_water">Test Water Chemistry</string>
+    <string name="description_clear">Clear Value</string>
+    <string name="description_add">Add</string>
+    <string name="description_photos">Photos</string>
+    <string name="description_volume">Calculate Volume</string>
+    <string name="description_set">Value Set Indicator</string>
+    <string name="description_gps">GPS Location</string>
+    <string name="description_mascot">PoolPal</string>
+    <string name="description_progress">Progress Indicator</string>
+    <string name="description_health">Pool Health</string>
+    <string name="description_reminder">Task Reminder</string>
+
+    <string name="candidates_style"><u>candidates</u></string>
+
+    <!-- Misc. -->
+    <string name="or">OR</string>
+
+    <!-- DateSlider Strings -->
+    <string name="dateSliderTitle">Selected date</string>
+</resources>

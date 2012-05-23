@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.devspacenine.poolpal.view.SliderContainer
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.devspacenine.poolpal"
+    android:id="@+id/dateSliderContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <com.devspacenine.poolpal.view.ScrollLayout
+        style="@style/PoolPal.Widget.Scroller"
+        app:labelerClass="com.devspacenine.poolpal.widget.labeler.YearLabeler"
+        app:labelerFormat="%tY"
+        app:childWidth="150dp"/>
+    <com.devspacenine.poolpal.view.ScrollLayout
+        style="@style/PoolPal.Widget.Scroller"
+        app:labelerClass="com.devspacenine.poolpal.widget.labeler.MonthLabeler"
+        app:labelerFormat="%tB"
+        app:childWidth="200dp"/>
+</com.devspacenine.poolpal.view.SliderContainer>

@@ -1,0 +1,146 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout android:id="@+id/input_window"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="8dp" >
+
+        <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp"
+            android:gravity="center"
+            style="@style/PoolPal.Widget.TextView.Title.Inverse.Large" />
+
+        <ImageView android:id="@+id/clear"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_action_clear_white"
+            android:contentDescription="@string/description_clear"
+            android:visibility="invisible"
+            style="@style/PoolPal.Widget.Button.InputWindow" />
+
+        <SeekBar android:id="@+id/seek_bar"
+            android:layout_below="@id/clear"
+	    	style="@style/PoolPal.Widget.SeekBar" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/input_window"
+	    android:background="@color/white_light" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+		    <LinearLayout android:id="@+id/chlorine"
+		        android:tag="@string/lbl_chlorine"
+		        style="@style/PoolPal.Widget.Calculator.Input" >
+
+		        <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/lbl_chlorine"
+			        android:text="@string/lbl_chlorine"
+			        style="@style/PoolPal.Widget.TextView.Calculator.Title" />
+
+		        <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/val_chlorine"
+			        style="@style/PoolPal.Widget.TextView.Calculator.Value" />
+
+		    </LinearLayout>
+
+		    <LinearLayout android:id="@+id/ph"
+		        android:tag="@string/lbl_ph"
+		        style="@style/PoolPal.Widget.Calculator.Input" >
+
+		        <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/lbl_ph"
+			        android:text="@string/lbl_ph"
+			        style="@style/PoolPal.Widget.TextView.Calculator.Title" />
+
+		        <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/val_ph"
+			        style="@style/PoolPal.Widget.TextView.Calculator.Value" />
+
+		    </LinearLayout>
+
+		</LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+		    <LinearLayout android:id="@+id/alkalinity"
+		        android:tag="@string/lbl_alkalinity"
+		        style="@style/PoolPal.Widget.Calculator.Input" >
+
+		        <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/lbl_alkalinity"
+			        android:text="@string/lbl_alkalinity"
+			        style="@style/PoolPal.Widget.TextView.Calculator.Title" />
+
+		        <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/val_alkalinity"
+			        style="@style/PoolPal.Widget.TextView.Calculator.Value" />
+
+		    </LinearLayout>
+
+		    <LinearLayout android:id="@+id/hardness"
+		        android:tag="@string/lbl_hardness"
+		        style="@style/PoolPal.Widget.Calculator.Input" >
+
+		        <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/lbl_hardness"
+			        android:text="@string/lbl_hardness"
+			        style="@style/PoolPal.Widget.TextView.Calculator.Title" />
+
+		        <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/val_hardness"
+			        style="@style/PoolPal.Widget.TextView.Calculator.Value" />
+
+		    </LinearLayout>
+
+		</LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+		    <LinearLayout android:id="@+id/stabilizer"
+		        android:tag="@string/lbl_stabilizer"
+		        style="@style/PoolPal.Widget.Calculator.Input.Last" >
+
+		        <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/lbl_stabilizer"
+			        android:text="@string/lbl_stabilizer"
+			        style="@style/PoolPal.Widget.TextView.Calculator.Title" />
+
+		        <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/val_stabilizer"
+			        style="@style/PoolPal.Widget.TextView.Calculator.Value" />
+
+		    </LinearLayout>
+
+		    <LinearLayout android:id="@+id/temperature"
+		        android:tag="@string/lbl_temperature"
+		        style="@style/PoolPal.Widget.Calculator.Input.Last" >
+
+		        <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/lbl_temperature"
+			        android:text="@string/lbl_temperature"
+			        style="@style/PoolPal.Widget.TextView.Calculator.Title" />
+
+		        <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/val_temperature"
+			        style="@style/PoolPal.Widget.TextView.Calculator.Value" />
+
+		    </LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</RelativeLayout>

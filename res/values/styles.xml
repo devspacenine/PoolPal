@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PoolPal"></style>
+
+    <!-- Text Styles -->
+    <style name="PoolPal.TextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/light_black</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Micro">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Small">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Medium">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Large">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Huge">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Inverse">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Inverse.Large" parent="@style/PoolPal.TextAppearance.Large">
+    </style>
+
+    <style name="PoolPal.TextAppearance.Large.ActionBarTitle">
+        <item name="android:layout_height">48dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@color/white_light</item>
+        <item name="android:shadowDx">-1.0</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Small.ActionBarSubtitle">
+        <item name="android:textColor">@color/grey_light</item>
+        <item name="android:shadowColor">@color/text_shadow</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.TabView">
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+        <item name="android:textColorHint">?android:attr/textColorHint</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Dashboard" parent="@style/PoolPal.TextAppearance.Huge">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Dashboard.Small">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Title" parent="@style/PoolPal.TextAppearance.Large">
+    </style>
+
+    <style name="PoolPal.TextAppearance.Title.Small">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Title.Section" parent="@style/PoolPal.TextAppearance.Small">
+        <item name="android:textColor">@color/orange_light</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Title.Dialog" parent="@style/PoolPal.TextAppearance.Huge">
+        <item name="android:textColor">@color/white_light</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Title.Tutorial" parent="@style/PoolPal.TextAppearance.Huge">
+        <item name="android:textColor">@color/white_light</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Inverse.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Details" parent="@style/PoolPal.TextAppearance.Large">
+        <item name="android:textColor">@color/grey_light</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Details.Large" parent="@style/PoolPal.TextAppearance.Large">
+        <item name="android:textColor">@color/grey_light</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Details.Large.Inverse">
+        <item name="android:textColor">@color/white_light</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Details.Huge" parent="@style/PoolPal.TextAppearance.Huge">
+        <item name="android:textColor">@color/grey_dark</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Details.Huge.Inverse">
+        <item name="android:textColor">@color/white_light</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Details.List" parent="@style/PoolPal.TextAppearance.Medium">
+        <item name="android:textColor">@color/grey_light</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Details.Dialog" parent="@style/PoolPal.TextAppearance.Medium">
+        <item name="android:textColor">@color/grey_middle</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Details.Tutorial" parent="@style/PoolPal.TextAppearance.Large">
+        <item name="android:textColor">@color/grey_middle</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Inverse.Details">
+        <item name="android:textColor">@color/white_middle</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Inverse.Details.List" parent="@style/PoolPal.TextAppearance.Small">
+        <item name="android:textColor">@color/white_middle</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Spinner" parent="@style/PoolPal.TextAppearance.Large">
+        <item name="android:textColor">@color/grey_light</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Spinner.Inverse">
+        <item name="android:textColor">@color/white_light</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.SplitAction" parent="@style/PoolPal.TextAppearance.Large">
+        <item name="android:textColor">@color/light_black</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Header" parent="@style/PoolPal.TextAppearance.Huge">
+    </style>
+
+    <style name="PoolPal.TextAppearance.ListHeader">
+        <item name="com.devspacenine.poolpal:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.ListTitle" parent="@style/PoolPal.TextAppearance.Large">
+        <item name="android:textColor">@color/light_black</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.ListSubtitle" parent="@style/PoolPal.TextAppearance.Small">
+        <item name="android:textColor">@color/grey_light</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Time" parent="@style/PoolPal.TextAppearance.Small">
+        <item name="android:textColor">@color/grey_dark</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Time.Late">
+        <item name="android:textColor">@color/warning_text</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.Time.Timer">
+        <item name="android:textColor">@color/orange_light</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.DialogValue" parent="@style/PoolPal.TextAppearance.Huge">
+        <item name="android:textColor">@color/blue_light</item>
+        <item name="com.devspacenine.poolpal:textStyle">bold</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.SpinnerItem" parent="@style/PoolPal.TextAppearance.Large">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.SpinnerItem.Title">
+        <item name="com.devspacenine.poolpal:textStyle">bold</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.SpinnerItem.Details" parent="@style/PoolPal.TextAppearance.Small">
+        <item name="android:textColor">@color/grey_light</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.EditText" parent="@style/PoolPal.TextAppearance.Large">
+        <item name="android:textColor">@color/grey_dark</item>
+        <item name="android:textColorHint">?android:attr/textColorHint</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.EditText.Inverse">
+        <item name="android:textColor">@color/white_light</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+    </style>
+
+    <style name="PoolPal.TextAppearance.EditText.Inverse.Large" parent="@style/PoolPal.TextAppearance.Huge">
+        <item name="android:textColor">@color/white_light</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+    </style>
+
+    <!-- Widget Styles -->
+    <style name="PoolPal.Widget" parent="@android:style/Widget"></style>
+
+    <style name="PoolPal.Widget.ActionBar" parent="@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/white_dark</item>
+        <item name="android:background">@color/white_dark</item>
+        <item name="titleTextStyle">@style/PoolPal.TextAppearance.Large.ActionBarTitle</item>
+        <item name="android:titleTextStyle">@style/PoolPal.TextAppearance.Large.ActionBarTitle</item>
+        <item name="subtitleTextStyle">@style/PoolPal.TextAppearance.Small.ActionBarSubtitle</item>
+        <item name="android:subtitleTextStyle">@style/PoolPal.TextAppearance.Small.ActionBarSubtitle</item>
+        <item name="navigationMode">listMode</item>
+        <item name="android:navigationMode">listMode</item>
+        <item name="itemPadding">4dip</item>
+        <item name="android:itemPadding">4dip</item>
+        <item name="displayOptions">useLogo|showHome|showTitle</item>
+        <item name="android:displayOptions">useLogo|showHome|showTitle</item>
+    </style>
+
+    <style name="PoolPal.Widget.ActionBar.HomeAsUp">
+        <item name="displayOptions">homeAsUp|useLogo|showHome|showTitle</item>
+        <item name="android:displayOptions">homeAsUp|useLogo|showHome|showTitle</item>
+    </style>
+
+    <style name="PoolPal.Widget.ActionBar.TabView">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingRight">8dip</item>
+    </style>
+
+    <style name="PoolPal.Widget.ActionBar.TabBar">
+        <item name="android:background">@drawable/black_bg</item>
+    </style>
+
+    <style name="PoolPal.Widget.ActionBar.TabText">
+        <item name="android:layout_width">90dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.TabView</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Dialog Styles -->
+    <style name="PoolPal.Widget.AlertDialog">
+        <item name="android:fullDark">@drawable/dialog_full</item>
+        <item name="android:topDark">@drawable/dialog_top</item>
+        <item name="android:centerDark">@drawable/dialog_middle</item>
+        <item name="android:bottomDark">@drawable/dialog_bottom</item>
+        <item name="android:fullBright">@drawable/dialog_full</item>
+        <item name="android:topBright">@drawable/dialog_top</item>
+        <item name="android:centerBright">@drawable/dialog_middle</item>
+        <item name="android:bottomBright">@drawable/dialog_bottom</item>
+        <item name="android:bottomMedium">@drawable/dialog_bottom</item>
+        <item name="android:centerMedium">@drawable/dialog_middle</item>
+    </style>
+
+    <style name="PoolPal.Widget.TransparentListView" parent="@android:style/Widget.ListView">
+		<item name="android:cacheColorHint">@android:color/transparent</item>
+	</style>
+
+	<style name="PoolPal.Widget.TransparentExpandableListView" parent="@android:style/Widget.ExpandableListView">
+		<item name="android:cacheColorHint">@android:color/transparent</item>
+	</style>
+
+    <style name="PoolPal.Widget.Dialog">
+        <item name="android:background">@drawable/dialog_shadow</item>
+    </style>
+
+    <style name="PoolPal.Widget.Image"></style>
+
+    <style name="PoolPal.Widget.Image.SectionHeader">
+        <item name="android:layout_width">48dip</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:paddingTop">4dip</item>
+        <item name="android:paddingRight">8dip</item>
+        <item name="android:paddingBottom">4dip</item>
+        <item name="android:paddingLeft">8dip</item>
+    </style>
+
+    <style name="PoolPal.Widget.Image.SmallIcon">
+        <item name="android:layout_width">24dip</item>
+        <item name="android:layout_height">24dip</item>
+        <item name="android:layout_marginRight">4dip</item>
+        <item name="android:padding">4dip</item>
+    </style>
+
+    <style name="PoolPal.Widget.Image.SplitAction">
+        <item name="android:layout_width">32dip</item>
+        <item name="android:layout_height">32dip</item>
+        <item name="android:layout_marginRight">8dip</item>
+    </style>
+
+    <style name="PoolPal.Widget.Image.AgendaAction">
+        <item name="android:layout_width">32dip</item>
+        <item name="android:layout_height">32dip</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginTop">8dip</item>
+        <item name="android:layout_marginBottom">8dip</item>
+        <item name="android:layout_marginRight">8dip</item>
+    </style>
+
+    <style name="PoolPal.Widget.Image.SpinnerItem">
+        <item name="android:layout_width">48dip</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:padding">8dip</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView"></style>
+
+    <style name="PoolPal.Widget.TextView.Dashboard">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Dashboard</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:drawablePadding">8dip</item>
+        <item name="android:shadowColor">@color/text_shadow</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.Dashboard.Small">
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Dashboard.Small</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.Title">
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Title</item>
+        <item name="android:gravity">left</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.Title.Multiline">
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Title.Small</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">5</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:scrollHorizontally">false</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.Title.Small">
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Title.Small</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.Title.Large">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.Title.Inverse">
+        <item name="com.devspacenine.poolpal:textStyle">bold</item>
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Inverse.Title</item>
+        <item name="android:shadowColor">@color/text_shadow</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.Title.Inverse.Large">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.Title.Section">
+        <item name="android:gravity">left|bottom</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="com.devspacenine.poolpal:textStyle">bold</item>
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Title.Section</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.Title.Dialog">
+        <item name="com.devspacenine.poolpal:textStyle">bold</item>
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Title.Dialog</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:shadowColor">@color/text_shadow</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.Title.Tutorial" parent="@style/PoolPal.Widget.TextView.Title.Dialog">
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Title.Tutorial</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.Details">
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Details</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.Details.Large">
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Details.Large</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.Details.Huge">
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Details.Huge</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.Details.List">
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Details.List</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.Details.Inverse">
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Inverse.Details</item>
+        <item name="android:shadowColor">@color/text_shadow</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.Details.Large.Inverse">
+        <item name="com.devspacenine.poolpal:textStyle">bold</item>
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Details.Large.Inverse</item>
+        <item name="android:shadowColor">@color/text_shadow</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.Details.Huge.Inverse">
+        <item name="com.devspacenine.poolpal:textStyle">bold</item>
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Details.Huge.Inverse</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.Details.Tutorial" parent="PoolPal.Widget.TextView.Details">
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Details.Tutorial</item>
+        <item name="android:layout_marginTop">8dip</item>
+        <item name="android:layout_marginBottom">8dip</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.Details.Prompt">
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Details.Dialog</item>
+        <item name="android:layout_marginBottom">8dip</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.Hidden">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="PoolPal.Widget.EditText">
+        <item name="android:layout_marginBottom">8dip</item>
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.EditText</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+
+    <style name="PoolPal.Widget.EditText.Inverse">
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.EditText.Inverse</item>
+        <item name="android:textColor">@color/white_light</item>
+        <item name="android:background">@drawable/edit_text_inverse</item>
+    </style>
+
+    <style name="PoolPal.Widget.EditText.Inverse.Large">
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.EditText.Inverse.Large</item>
+    </style>
+
+    <style name="PoolPal.Widget.EditText.Multiline">
+        <item name="android:singleLine">false</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.Calculator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.Calculator.Title">
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Title</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.Calculator.Value">
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Details</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.SplitAction">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:gravity">center</item>
+        <item name="com.devspacenine.poolpal:textStyle">bold</item>
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.SplitAction</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.AgendaHeader">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.ListHeader</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingBottom">4dip</item>
+        <item name="android:gravity">left|bottom</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:background">@drawable/list_header_bg</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.Header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Header</item>
+        <item name="com.devspacenine.poolpal:textStyle">bold</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.AgendaTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">24dip</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.ListTitle</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.AgendaTarget">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">24dip</item>
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.ListSubtitle</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.AgendaTime">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">24dip</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginLeft">8dip</item>
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Time</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.AgendaTime.Late">
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Time.Late</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.AgendaTime.Timer">
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Time.Timer</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.DialogValue">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dip</item>
+        <item name="android:layout_marginRight">16dip</item>
+        <item name="android:layout_marginBottom">8dip</item>
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.DialogValue</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.SpinnerItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.SpinnerItem</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.SpinnerItem.Title">
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.SpinnerItem.Title</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.SpinnerItem.Details">
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.SpinnerItem.Details</item>
+    </style>
+
+    <style name="PoolPal.Widget.TextView.ListSeparator">
+        <item name="android:background">@drawable/list_section_divider</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="PoolPal.Divider"></style>
+
+    <style name="PoolPal.Divider.Vertical">
+        <item name="android:layout_width">1dip</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="PoolPal.Divider.Vertical.Light">
+        <item name="android:background">@color/divider_white_light</item>
+    </style>
+
+    <style name="PoolPal.Divider.Vertical.Dark">
+        <item name="android:padding">0dip</item>
+        <item name="android:layout_margin">0dip</item>
+        <item name="android:background">@color/divider_grey_light</item>
+    </style>
+
+    <style name="PoolPal.Divider.Vertical.Dashboard">
+        <item name="android:padding">0dip</item>
+        <item name="android:layout_margin">0dip</item>
+        <item name="android:background">@drawable/divider_vertical_dashboard</item>
+    </style>
+
+    <style name="PoolPal.Divider.Vertical.Dialog">
+        <item name="android:layout_width">2px</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:layout_margin">0dip</item>
+        <item name="android:padding">0dip</item>
+        <item name="android:background">@drawable/divider_vertical_dialog</item>
+    </style>
+
+    <style name="PoolPal.Divider.Horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+    </style>
+
+    <style name="PoolPal.Divider.Horizontal.Dashboard">
+        <item name="android:padding">0dip</item>
+        <item name="android:layout_margin">0dip</item>
+    </style>
+
+    <style name="PoolPal.Divider.Horizontal.Dashboard.Left">
+        <item name="android:background">@drawable/divider_horizontal_dashboard_left</item>
+    </style>
+
+    <style name="PoolPal.Divider.Horizontal.Dashboard.Right">
+        <item name="android:background">@drawable/divider_horizontal_dashboard_right</item>
+    </style>
+
+    <style name="PoolPal.Divider.Horizontal.Dark">
+        <item name="android:padding">0dip</item>
+        <item name="android:layout_margin">0dip</item>
+        <item name="android:background">@color/divider_grey_dark</item>
+    </style>
+
+    <style name="PoolPal.Divider.Horizontal.Light">
+        <item name="android:background">@color/divider_white_light</item>
+    </style>
+
+    <style name="PoolPal.Divider.Horizontal.List">
+        <item name="android:background">@drawable/list_divider</item>
+    </style>
+
+    <style name="PoolPal.Divider.Horizontal.Dialog">
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/dimmer_foreground</item>
+    </style>
+
+    <style name="PoolPal.Divider.Horizontal.Dialog.Header">
+        <item name="android:layout_height">2dip</item>
+        <item name="android:background">@color/orange_light</item>
+    </style>
+
+    <style name="PoolPal.Widget.Divider"></style>
+
+    <style name="PoolPal.Widget.Divider.SectionTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">3dip</item>
+        <item name="android:background">@color/orange_light</item>
+    </style>
+
+    <style name="PoolPal.Widget.Divider.Subsection">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+        <item name="android:layout_marginLeft">8dip</item>
+        <item name="android:layout_marginRight">8dip</item>
+        <item name="android:background">@color/dimmer_foreground</item>
+    </style>
+
+    <style name="PoolPal.Widget.Divider.Calculator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+        <item name="android:layout_marginTop">4dip</item>
+        <item name="android:layout_marginBottom">4dip</item>
+        <item name="android:layout_marginRight">16dip</item>
+        <item name="android:layout_marginLeft">16dip</item>
+        <item name="android:background">@color/dimmer_foreground</item>
+    </style>
+
+    <style name="PoolPal.Widget.Divider.SectionAction">
+        <item name="android:layout_width">1dip</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@color/dimmer_foreground</item>
+    </style>
+
+    <style name="PoolPal.Widget.Button" parent="@android:style/Widget.Button">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="PoolPal.Widget.Button.Dashboard">
+        <item name="android:background">@drawable/btn_borderless_square</item>
+        <item name="android:padding">8dip</item>
+        <item name="android:layout_margin">0dip</item>
+    </style>
+
+    <style name="PoolPal.Widget.Button.Small">
+        <item name="android:background">@drawable/btn_default</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">48dip</item>
+    </style>
+
+    <style name="PoolPal.Widget.Button.Inset">
+    </style>
+
+    <style name="PoolPal.Widget.Button.Toggle">
+        <item name="android:background">@drawable/btn_toggle</item>
+        <item name="android:textOn">@string/capital_on</item>
+        <item name="android:textOff">@string/capital_off</item>
+        <item name="android:disabledAlpha">?android:attr/disabledAlpha</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:minHeight">48dip</item>
+    </style>
+
+    <style name="PoolPal.Widget.Button.Compound">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Inverse.Title</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:drawablePadding">4dip</item>
+        <item name="android:background">@drawable/btn_default</item>
+    </style>
+
+    <style name="PoolPal.Widget.Button.Borderless">
+        <item name="android:background">@drawable/btn_borderless_square</item>
+    </style>
+
+    <style name="PoolPal.Widget.Button.Borderless.Round">
+        <item name="android:background">@drawable/btn_borderless</item>
+    </style>
+
+    <style name="PoolPal.Widget.Button.Borderless.First">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginRight">4dip</item>
+    </style>
+
+    <style name="PoolPal.Widget.Button.Borderless.Middle">
+        <item name="android:layout_marginRight">4dip</item>
+        <item name="android:layout_marginLeft">4dip</item>
+    </style>
+
+    <style name="PoolPal.Widget.Button.Borderless.Last">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginLeft">4dip</item>
+    </style>
+
+    <style name="PoolPal.Widget.Button.Borderless.Compound">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.SpinnerItem</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:drawablePadding">4dip</item>
+        <item name="android:shadowColor">@color/text_shadow</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="PoolPal.Widget.Button.SetImage">
+        <item name="android:gravity">center</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:background">@drawable/btn_set_image</item>
+    </style>
+
+    <style name="PoolPal.Widget.Button.Section">
+        <item name="android:background">@drawable/btn_section</item>
+    </style>
+
+    <style name="PoolPal.Widget.Button.Dialog">
+        <item name="android:layout_gravity">center</item>
+        <item name="com.devspacenine.poolpal:textStyle">bold</item>
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Details.Tutorial</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/dialog_action_text</item>
+    </style>
+
+    <style name="PoolPal.Widget.Button.Dialog.Left">
+        <item name="android:background">@drawable/dialog_action_bl</item>
+    </style>
+
+    <style name="PoolPal.Widget.Button.Dialog.Right">
+        <item name="android:background">@drawable/dialog_action_br</item>
+    </style>
+
+    <style name="PoolPal.Widget.Button.Tutorial">
+        <item name="com.devspacenine.poolpal:textStyle">bold</item>
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Details.Tutorial</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_default</item>
+    </style>
+
+    <style name="PoolPal.Widget.Tab"></style>
+
+    <style name="PoolPal.Widget.Tab.Profile">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="com.devspacenine.poolpal:textStyle">bold</item>
+        <item name="android:textColor">@color/white_light</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:shadowColor">@color/text_shadow</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+        <item name="android:padding">8dip</item>
+        <item name="android:layout_marginLeft">4dip</item>
+        <item name="android:layout_marginRight">4dip</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="PoolPal.Widget.Button.InputWindow">
+        <item name="android:layout_width">48dip</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:padding">8dip</item>
+        <item name="android:background">@drawable/btn_borderless_square</item>
+    </style>
+
+    <style name="PoolPal.Widget.Button.SectionHeader">
+        <item name="android:layout_width">48dip</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:padding">8dip</item>
+        <item name="android:background">@drawable/btn_section</item>
+    </style>
+
+    <style name="PoolPal.Widget.Button.SplitAction">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingRight">8dip</item>
+        <item name="android:background">@drawable/btn_borderless_square</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="PoolPal.Widget.Button.SplitAction.First">
+        <item name="android:paddingLeft">0dip</item>
+    </style>
+
+    <style name="PoolPal.Widget.Button.SplitAction.Last">
+        <item name="android:paddingRight">0dip</item>
+    </style>
+
+    <style name="PoolPal.Widget.ListView" parent="@android:style/Widget.ListView">
+        <item name="android:cacheColorHint">?android:attr/colorBackgroundCacheHint</item>
+        <item name="android:listSelector">@drawable/btn_borderless_square</item>
+        <item name="android:divider">@null</item>
+    </style>
+
+    <style name="PoolPal.Widget.TabWidget" parent="@android:style/Widget.TabWidget">
+        <item name="android:layout_height">48dip</item>
+    </style>
+
+    <style name="PoolPal.Widget.Spinner" parent="@android:style/Widget.Spinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:layout_marginBottom">8dip</item>
+        <item name="android:background">@drawable/spinner_background</item>
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Spinner</item>
+        <item name="android:dropDownSelector">@drawable/list_selector</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+    </style>
+
+    <style name="PoolPal.Widget.Spinner.Inverse">
+        <item name="android:textAppearance">@style/PoolPal.TextAppearance.Spinner.Inverse</item>
+    </style>
+
+    <style name="PoolPal.Widget.Calculator"></style>
+
+    <style name="PoolPal.Widget.Calculator.Input" parent="@style/PoolPal.Widget.Button">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">4dip</item>
+        <item name="android:paddingBottom">4dip</item>
+        <item name="android:background">@drawable/calculator_input</item>
+    </style>
+
+    <style name="PoolPal.Widget.Calculator.Input.Last">
+        <item name="android:background">@drawable/calculator_input_last</item>
+    </style>
+
+    <style name="PoolPal.Widget.SeekBar" parent="@android:style/Widget.SeekBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">32dip</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_margin">0dip</item>
+        <item name="android:paddingTop">0dip</item>
+        <item name="android:paddingBottom">0dip</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal</item>
+        <item name="android:indeterminateDrawable">@drawable/scrubber_progress_horizontal</item>
+        <item name="android:minHeight">32dip</item>
+        <item name="android:maxHeight">32dip</item>
+        <item name="android:thumb">@drawable/scrubber_control_selector</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="PoolPal.Widget.Scroller">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/slider_back</item>
+        <item name="android:layout_margin">3dip</item>
+    </style>
+
+    <style name="PoolPal.Preference.PreferenceScreen">
+    </style>
+
+    <style name="PoolPal.Preference.Category">
+        <item name="android:layout">@layout/preference_category</item>
+        <!-- The title should not dim if the category is disabled, instead only the preference children should dim. -->
+        <item name="android:shouldDisableView">false</item>
+        <item name="android:selectable">false</item>
+    </style>
+
+    <style name="PoolPal.Preference">
+        <item name="android:layout">@layout/preference</item>
+    </style>
+
+    <style name="PoolPal.Preference.Information">
+        <item name="android:layout">@layout/preference_information</item>
+        <item name="android:enabled">false</item>
+        <item name="android:shouldDisableView">false</item>
+    </style>
+
+    <style name="PoolPal.Preference.CheckBoxPreference">
+        <item name="android:widgetLayout">@layout/preference_widget_checkbox</item>
+    </style>
+
+    <style name="PoolPal.Preference.DialogPreference">
+        <item name="android:positiveButtonText">@android:string/ok</item>
+        <item name="android:negativeButtonText">@android:string/cancel</item>
+    </style>
+
+    <style name="PoolPal.Preference.DialogPreference.YesNoPreference">
+        <item name="android:positiveButtonText">@android:string/yes</item>
+        <item name="android:negativeButtonText">@android:string/no</item>
+    </style>
+
+    <style name="PoolPal.Preference.DialogPreference.EditTextPreference">
+        <item name="android:dialogLayout">@layout/preference_dialog_edittext</item>
+    </style>
+
+    <style name="PoolPal.Preference.RingtonePreference">
+        <item name="android:ringtoneType">ringtone</item>
+        <item name="android:showSilent">true</item>
+        <item name="android:showDefault">true</item>
+    </style>
+
+</resources>

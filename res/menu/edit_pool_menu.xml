@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/about"
+        android:icon="@drawable/ic_action_about_enabled"
+        android:title="@string/about"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom" />
+    <item android:id="@+id/feedback"
+        android:icon="@drawable/ic_action_feedback_enabled"
+        android:title="@string/feedback"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom" />
+</menu>

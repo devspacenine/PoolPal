@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:right="8dip">
+        <bitmap android:src="@drawable/ic_ctx_more_white"
+            android:gravity="right|center_vertical" />
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/btn_blue_dark"/>
+        </shape>
+    </item>
+
+    <item android:drawable="@drawable/ab_solid_shadow" />
+
+</layer-list>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/drop_shadow_blue" >
+
+        <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/setup_pool"
+            style="@style/PoolPal.Widget.TextView.Title.Inverse" />
+
+        <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/title"
+            android:text="@string/setup_pool_details"
+            style="@style/PoolPal.Widget.TextView.Details.Inverse" />
+
+    </RelativeLayout>
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/drop_shadow_white" >
+
+	    <ListView android:id="@+id/settings"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:paddingBottom="8dp"
+		    style="?android:listViewStyle" />
+
+	</LinearLayout>
+
+</LinearLayout>

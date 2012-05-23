@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    android:background="@drawable/window_bg" >
+
+	<LinearLayout
+	    android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1" >
+
+	    <LinearLayout android:id="@+id/calculator"
+	        android:orientation="vertical"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        style="@style/PoolPal.Widget.Button.Dashboard" >
+
+	        <com.devspacenine.poolpal.view.RobotoTextView
+	            android:text="@string/calculator"
+	            android:drawableTop="@drawable/ic_label_calculator_white"
+	            style="@style/PoolPal.Widget.TextView.Dashboard" />
+
+	    </LinearLayout>
+
+	    <View
+	    	style="@style/PoolPal.Divider.Horizontal.Dashboard.Left" />
+
+	    <LinearLayout android:id="@+id/agenda"
+	        android:orientation="vertical"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        style="@style/PoolPal.Widget.Button.Dashboard" >
+
+	        <com.devspacenine.poolpal.view.RobotoTextView
+	            android:text="@string/agenda"
+	            android:drawableTop="@drawable/ic_label_calendar_white"
+	            style="@style/PoolPal.Widget.TextView.Dashboard" />
+
+	    </LinearLayout>
+
+	</LinearLayout>
+
+	<View
+	    style="@style/PoolPal.Divider.Vertical.Dashboard" />
+
+	<LinearLayout
+	    android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1" >
+
+	    <LinearLayout
+	        android:orientation="horizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1" >
+
+	        <LinearLayout
+	            android:orientation="vertical"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1" >
+
+	            <LinearLayout android:id="@+id/troubleshoot"
+	                android:orientation="vertical"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1"
+	                style="@style/PoolPal.Widget.Button.Dashboard" >
+
+	                <com.devspacenine.poolpal.view.RobotoTextView
+			            android:text="@string/troubleshoot"
+			            android:drawableTop="@drawable/ic_label_wrench_white"
+			            style="@style/PoolPal.Widget.TextView.Dashboard.Small" />
+
+
+	            </LinearLayout>
+
+	            <View
+	    			style="@style/PoolPal.Divider.Horizontal.Dashboard.Left" />
+
+	            <LinearLayout android:id="@+id/poolpedia"
+	                android:orientation="vertical"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1"
+	                style="@style/PoolPal.Widget.Button.Dashboard" >
+
+	                <com.devspacenine.poolpal.view.RobotoTextView
+			            android:text="@string/poolpedia"
+			            android:drawableTop="@drawable/ic_label_books_white"
+			            style="@style/PoolPal.Widget.TextView.Dashboard.Small" />
+
+
+	            </LinearLayout>
+
+	        </LinearLayout>
+
+	        <View
+	    		style="@style/PoolPal.Divider.Vertical.Dashboard" />
+
+	        <LinearLayout
+	            android:orientation="vertical"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1" >
+
+	            <LinearLayout android:id="@+id/settings"
+	                android:orientation="vertical"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1"
+	                style="@style/PoolPal.Widget.Button.Dashboard" >
+
+	                <com.devspacenine.poolpal.view.RobotoTextView
+			            android:text="@string/settings"
+			            android:drawableTop="@drawable/ic_label_settings_white"
+			            style="@style/PoolPal.Widget.TextView.Dashboard.Small" />
+
+
+	            </LinearLayout>
+
+	            <View
+	    			style="@style/PoolPal.Divider.Horizontal.Dashboard.Right" />
+
+	            <LinearLayout android:id="@+id/charts"
+	                android:orientation="vertical"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1"
+	                style="@style/PoolPal.Widget.Button.Dashboard" >
+
+	                <com.devspacenine.poolpal.view.RobotoTextView
+			            android:text="@string/charts"
+			            android:drawableTop="@drawable/ic_label_charts_white"
+			            style="@style/PoolPal.Widget.TextView.Dashboard.Small" />
+
+
+	            </LinearLayout>
+
+	        </LinearLayout>
+
+	    </LinearLayout>
+
+	    <View
+	    	style="@style/PoolPal.Divider.Horizontal.Dashboard.Right" />
+
+	    <LinearLayout android:id="@+id/supplies"
+	        android:orientation="vertical"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        style="@style/PoolPal.Widget.Button.Dashboard" >
+
+	        <com.devspacenine.poolpal.view.RobotoTextView
+	            android:text="@string/supplies"
+	            android:drawableTop="@drawable/ic_label_cart_white"
+	            style="@style/PoolPal.Widget.TextView.Dashboard" />
+
+	    </LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>

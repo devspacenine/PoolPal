@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="8dp" >
+
+    <com.devspacenine.poolpal.view.RobotoEditText android:id="@+id/input1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="text|textCapWords"
+        android:imeOptions="actionNext"
+        android:nextFocusRight="@+id/input2"
+        android:nextFocusDown="@+id/input2"
+        style="@style/PoolPal.Widget.EditText" />
+
+    <com.devspacenine.poolpal.view.RobotoEditText android:id="@+id/input2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="text|textCapWords"
+        android:imeOptions="actionDone"
+        android:nextFocusLeft="@id/input1"
+        android:nextFocusUp="@id/input1"
+        style="@style/PoolPal.Widget.EditText" />
+
+</LinearLayout>

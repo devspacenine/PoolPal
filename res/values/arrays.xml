@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="navigation_tab_titles">
+        <item>PoolPedia</item>
+        <item>Troubleshoot</item>
+        <item>Agenda</item>
+        <item>Calculator</item>
+        <item>Shop</item>
+        <item>Charts</item>
+    </string-array>
+
+    <string-array name="chlorine_values">
+        <item>0.0</item>
+        <item>0.5</item>
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>2.0</item>
+        <item>2.5</item>
+        <item>3.0</item>
+        <item>3.5</item>
+        <item>4.0</item>
+        <item>4.5</item>
+        <item>5.0</item>
+        <item>5.5</item>
+        <item>6.0</item>
+        <item>6.5</item>
+        <item>7.0</item>
+        <item>7.5</item>
+        <item>7.0</item>
+        <item>8.5</item>
+        <item>9.0</item>
+        <item>9.0&#43;</item>
+    </string-array>
+    <integer name="chlorine_default">6</integer>
+
+    <string-array name="ph_values">
+        <item>&#60;6.5</item>
+        <item>6.5</item>
+        <item>6.6</item>
+        <item>6.7</item>
+        <item>6.8</item>
+        <item>6.9</item>
+        <item>7.0</item>
+        <item>7.1</item>
+        <item>7.2</item>
+        <item>7.3</item>
+        <item>7.4</item>
+        <item>7.5</item>
+        <item>7.6</item>
+        <item>7.7</item>
+        <item>7.8</item>
+        <item>7.9</item>
+        <item>8.0</item>
+        <item>8.1</item>
+        <item>8.2</item>
+        <item>8.3</item>
+        <item>8.4</item>
+        <item>8.5</item>
+        <item>8.5&#43;</item>
+    </string-array>
+    <integer name="ph_default">10</integer>
+
+    <string-array name="alkalinity_values">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>110</item>
+        <item>120</item>
+        <item>130</item>
+        <item>140</item>
+        <item>150</item>
+        <item>160</item>
+        <item>170</item>
+        <item>180</item>
+        <item>190</item>
+        <item>200</item>
+        <item>210</item>
+        <item>220</item>
+        <item>230</item>
+        <item>240</item>
+        <item>250</item>
+        <item>250&#43;</item>
+    </string-array>
+    <integer name="alkalinity_default">8</integer>
+
+    <string-array name="hardness_values">
+        <item>&#60;100</item>
+        <item>110</item>
+        <item>120</item>
+        <item>130</item>
+        <item>140</item>
+        <item>150</item>
+        <item>160</item>
+        <item>170</item>
+        <item>180</item>
+        <item>190</item>
+        <item>200</item>
+        <item>210</item>
+        <item>220</item>
+        <item>230</item>
+        <item>240</item>
+        <item>250</item>
+        <item>260</item>
+        <item>270</item>
+        <item>280</item>
+        <item>290</item>
+        <item>300</item>
+        <item>310</item>
+        <item>320</item>
+        <item>330</item>
+        <item>340</item>
+        <item>350</item>
+        <item>360</item>
+        <item>370</item>
+        <item>380</item>
+        <item>390</item>
+        <item>400</item>
+        <item>410</item>
+        <item>420</item>
+        <item>430</item>
+        <item>440</item>
+        <item>450</item>
+        <item>460</item>
+        <item>470</item>
+        <item>480</item>
+        <item>490</item>
+        <item>500</item>
+        <item>500&#43;</item>
+    </string-array>
+    <integer name="hardness_default">10</integer>
+
+    <string-array name="stabilizer_values">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>110</item>
+        <item>120</item>
+        <item>130</item>
+        <item>140</item>
+        <item>150</item>
+        <item>150&#43;</item>
+    </string-array>
+    <integer name="stabilizer_default">6</integer>
+
+    <string-array name="temperature_values">
+        <item>&#60;47</item>
+        <item>47&#8211;60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>95&#43;</item>
+    </string-array>
+    <integer name="temperature_default">19</integer>
+
+    <string-array name="depth_values">
+        <item>&#60;1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+    <integer name="min_depth_default">3</integer>
+    <integer name="max_depth_default">9</integer>
+
+    <string-array name="pool_locales">
+        <item>Outdoor</item>
+        <item>Indoor - Natural Lighting</item>
+        <item>Indoor</item>
+    </string-array>
+
+    <string-array name="pool_finishes">
+        <item>Above-Ground Vinyl</item>
+        <item>Vinyl</item>
+        <item>Fiberglass</item>
+        <item>Plaster</item>
+        <item>Quartz Plaster</item>
+        <item>Pebble Plaster</item>
+        <item>Other Plaster Additive</item>
+    </string-array>
+
+    <string-array name="pool_sanitizer_systems">
+        <item>Floater</item>
+        <item>In/Off-Line Feeder</item>
+        <item>Liquid Chlorine Feeder</item>
+        <item>Salt Chlorinator</item>
+        <item>Ozone System</item>
+    </string-array>
+
+    <string-array name="pool_filters">
+        <item>Sand Filter</item>
+        <item>D.E. Filter</item>
+        <item>Cartridge Filter</item>
+        <item>Other Filter</item>
+    </string-array>
+
+    <string-array name="pool_traffic_levels">
+        <item>Private - Family &amp; Friends</item>
+        <item>Private - Apartments/Condos/Hotel</item>
+        <item>Public - Recreational</item>
+        <item>Public - Competition</item>
+    </string-array>
+
+    <string-array name="pool_accessory_labels">
+        <item>Tiling</item>
+		<item>Pool Cover</item>
+		<item>Attached Spa</item>
+		<item>Heater</item>
+		<item>Diving Board</item>
+		<item>Slide</item>
+		<item>Ladder Access</item>
+		<item>Fountains</item>
+		<item>Rock Waterfall</item>
+		<item>Lights</item>
+		<item>Infinity Edge</item>
+		<item>Sporting Equipment</item>
+		<item>Beach Entry</item>
+		<item>Sand</item>
+    </string-array>
+
+    <integer-array name="pool_accessories">
+        <item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+    </integer-array>
+
+    <string-array name="reminder_periods">
+        <item>1 Minute</item>
+		<item>5 Minutes</item>
+		<item>10 Minutes</item>
+		<item>15 Minutes</item>
+		<item>20 Minutes</item>
+		<item>25 Minutes</item>
+		<item>30 Minutes</item>
+		<item>45 Minutes</item>
+		<item>1 Hour</item>
+		<item>2 Hours</item>
+		<item>3 Hours</item>
+		<item>12 Hours</item>
+		<item>1 Day</item>
+		<item>2 Days</item>
+		<item>3 Days</item>
+		<item>1 Week</item>
+    </string-array>
+
+    <string-array name="states">
+    	<item>AK</item>
+    	<item>AL</item>
+    	<item>AR</item>
+    	<item>AZ</item>
+    	<item>CA</item>
+    	<item>CO</item>
+    	<item>CT</item>
+    	<item>DC</item>
+    	<item>DE</item>
+    	<item>FL</item>
+    	<item>GA</item>
+    	<item>HI</item>
+    	<item>IA</item>
+    	<item>ID</item>
+    	<item>IL</item>
+    	<item>IN</item>
+    	<item>KS</item>
+    	<item>KY</item>
+    	<item>LA</item>
+    	<item>MA</item>
+    	<item>MD</item>
+    	<item>ME</item>
+    	<item>MI</item>
+    	<item>MN</item>
+    	<item>MO</item>
+    	<item>MS</item>
+    	<item>MT</item>
+    	<item>NC</item>
+    	<item>ND</item>
+    	<item>NE</item>
+    	<item>NH</item>
+    	<item>NJ</item>
+    	<item>NM</item>
+    	<item>NV</item>
+    	<item>NY</item>
+    	<item>OH</item>
+    	<item>OK</item>
+    	<item>OR</item>
+    	<item>PA</item>
+    	<item>RI</item>
+    	<item>SC</item>
+    	<item>SD</item>
+    	<item>TN</item>
+    	<item>TX</item>
+    	<item>UT</item>
+    	<item>VA</item>
+    	<item>VT</item>
+    	<item>WA</item>
+    	<item>WI</item>
+    	<item>WV</item>
+    	<item>WY</item>
+    </string-array>
+
+</resources>

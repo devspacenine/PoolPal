@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@color/blue_light"
+                android:endColor="@color/blue_dark"
+                android:gradientRadius="325"
+                android:type="radial" />
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@color/bg_highlight_light"
+                android:endColor="@color/bg_highlight_dark"
+                android:gradientRadius="325"
+                android:type="radial" />
+        </shape>
+    </item>
+
+    <item android:drawable="@drawable/ab_solid_shadow" />
+
+</layer-list>

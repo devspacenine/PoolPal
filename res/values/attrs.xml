@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="textStyle">
+        <flag name="normal" value="0" />
+        <flag name="bold" value="1" />
+        <flag name="italic" value="2" />
+        <flag name="light" value="4" />
+    </attr>
+
+    <declare-styleable name="RobotoTextView">
+        <attr name="textStyle" />
+    </declare-styleable>
+
+    <declare-styleable name="RobotoEditText">
+        <attr name="textStyle" />
+    </declare-styleable>
+
+    <declare-styleable name="RobotoCheckedTextView">
+        <attr name="textStyle" />
+    </declare-styleable>
+
+    <declare-styleable name="ScrollLayout">
+        <attr name="labelerClass" format="string"/>
+        <attr name="labelerFormat" format="string"/>
+        <attr name="childWidth" format="dimension"/>
+        <attr name="childHeight" format="dimension"/>
+    </declare-styleable>
+
+</resources>

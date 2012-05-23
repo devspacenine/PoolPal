@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <ImageView android:id="@+id/gps"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="8dp"
+        android:padding="4dp"
+        android:src="@drawable/ic_btn_target"
+        android:contentDescription="@string/description_gps"
+        style="@style/PoolPal.Widget.Button.Borderless.Round" />
+
+    <View android:id="@+id/divider"
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/gps"
+        android:background="@color/grey_light" />
+
+    <com.devspacenine.poolpal.view.RobotoEditText android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/divider"
+        android:layout_marginBottom="8dp"
+        android:inputType="text|textCapWords"
+        android:imeOptions="actionNext"
+        android:hint="@string/hint_address_line_one"
+        style="@style/PoolPal.Widget.EditText" />
+
+    <com.devspacenine.poolpal.view.RobotoEditText android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/line1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="8dp"
+        android:inputType="text|textCapWords"
+        android:imeOptions="actionNext"
+        android:hint="@string/hint_address_city"
+        style="@style/PoolPal.Widget.EditText" />
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/city"
+        android:layout_marginBottom="8dp" >
+
+	    <com.devspacenine.poolpal.view.RobotoEditText android:id="@+id/state"
+	        android:layout_width="match_parent"
+	        android:layout_height="48dp"
+	        android:layout_weight="2"
+	        android:inputType="text|textCapWords"
+	        android:imeOptions="actionNext"
+	        android:hint="@string/hint_address_state"
+	        style="@style/PoolPal.Widget.EditText" />
+
+	    <com.devspacenine.poolpal.view.RobotoEditText android:id="@+id/zip"
+	        android:layout_width="match_parent"
+	        android:layout_height="48dp"
+	        android:layout_weight="3"
+	        android:inputType="number"
+	        android:digits="0123456789-+"
+	        android:imeOptions="actionDone"
+	        android:hint="@string/hint_address_zip"
+	        style="@style/PoolPal.Widget.EditText" />
+
+	</LinearLayout>
+
+</RelativeLayout>

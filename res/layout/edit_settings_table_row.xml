@@ -1,0 +1,67 @@
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content" >
+
+    <RelativeLayout android:id="@+id/item1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+	    android:paddingTop="8dp"
+	    android:paddingBottom="8dp"
+	    android:paddingLeft="16dp"
+	    android:paddingRight="4dp"
+	    style="@style/PoolPal.Widget.Button.Borderless" >
+
+        <CheckBox android:id="@+id/value1"
+            android:tag="@string/value"
+		    android:layout_width="48dp"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="8dp"
+		    android:layout_centerVertical="true"
+		    android:layout_alignParentRight="true"
+		    android:button="@drawable/btn_check" />
+
+        <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/label1"
+			android:tag="@string/label"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_toLeftOf="@id/value1"
+			android:layout_alignParentLeft="true"
+			android:gravity="center_horizontal"
+			style="@style/PoolPal.Widget.TextView.Title.Multiline" />
+
+	</RelativeLayout>
+
+    <RelativeLayout android:id="@+id/item2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+	    android:paddingTop="8dp"
+	    android:paddingBottom="8dp"
+	    android:paddingLeft="4dp"
+	    android:paddingRight="16dp"
+	    style="@style/PoolPal.Widget.Button.Borderless" >
+
+        <CheckBox android:id="@+id/value2"
+            android:tag="@string/value"
+		    android:layout_width="48dp"
+		    android:layout_height="wrap_content"
+		    android:layout_centerVertical="true"
+		    android:layout_alignParentRight="true"
+		    android:layout_marginLeft="8dp"
+		    android:button="@drawable/btn_check" />
+
+        <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/label2"
+            android:tag="@string/label"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_toLeftOf="@id/value2"
+			android:layout_alignParentLeft="true"
+			android:gravity="center_horizontal"
+			style="@style/PoolPal.Widget.TextView.Title.Multiline" />
+
+	</RelativeLayout>
+
+</TableRow>

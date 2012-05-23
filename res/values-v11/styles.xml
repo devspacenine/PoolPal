@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PoolPal.Widget.ActionBar" parent="@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/white_dark</item>
+        <item name="android:titleTextStyle">@style/PoolPal.TextAppearance.Large.ActionBarTitle</item>
+        <item name="android:subtitleTextStyle">@style/PoolPal.TextAppearance.Small.ActionBarSubtitle</item>
+        <item name="android:navigationMode">listMode</item>
+        <item name="android:itemPadding">4dip</item>
+        <item name="android:displayOptions">useLogo|showHome|showTitle</item>
+    </style>
+
+    <style name="PoolPal.Widget.ActionBar.HomeAsUp">
+        <item name="android:displayOptions">homeAsUp|useLogo|showHome|showTitle</item>
+    </style>
+</resources>

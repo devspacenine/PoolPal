@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical" >
+
+	<RelativeLayout android:id="@+id/depth"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="16dp"
+	    android:paddingLeft="16dp"
+	    android:paddingRight="16dp" >
+
+	    <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/lbl_min"
+	        android:layout_width="64dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:text="@string/lbl_min"
+	        android:gravity="center"
+	        style="@style/PoolPal.Widget.TextView.Title.Small" />
+
+	    <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/lbl_max"
+	        android:layout_width="64dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignParentTop="true"
+	        android:text="@string/lbl_max"
+	        android:gravity="center"
+	        style="@style/PoolPal.Widget.TextView.Title.Small" />
+
+	    <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/min"
+	        android:layout_width="64dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@id/lbl_min"
+	        android:gravity="center"
+	        style="@style/PoolPal.Widget.TextView.Details" />
+
+	    <com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/max"
+	        android:layout_width="64dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@id/lbl_max"
+	        android:gravity="center"
+	        style="@style/PoolPal.Widget.TextView.Details" />
+
+	</RelativeLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginTop="16dp"
+	    android:orientation="horizontal"
+	    android:paddingLeft="16dp"
+	    android:paddingRight="16dp"
+	    android:paddingBottom="8dp" >
+
+	    <com.devspacenine.poolpal.view.RobotoEditText android:id="@+id/volume"
+	        android:layout_width="0dp"
+	        android:layout_height="48dp"
+	        android:layout_weight="1"
+	        android:inputType="number"
+	        android:digits="0123456789,."
+	        android:maxLength="9"
+	        android:imeOptions="actionDone"
+	        android:hint="@string/hint_volume"
+	        style="@style/PoolPal.Widget.EditText" />
+
+	    <ImageView android:id="@+id/calculate"
+	        android:layout_width="48dp"
+	        android:layout_height="48dp"
+	        android:layout_gravity="center_vertical"
+	        android:src="@drawable/ic_btn_view"
+	        android:contentDescription="@string/description_volume"
+	        style="@style/PoolPal.Widget.Button.Borderless" />
+
+	</LinearLayout>
+
+</LinearLayout>

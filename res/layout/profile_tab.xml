@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:gravity="center"
+    android:background="@drawable/btn_profile" >
+
+	<com.devspacenine.poolpal.view.RobotoTextView android:id="@+id/title"
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:layout_marginLeft="4dp"
+		android:layout_marginRight="4dp"
+		android:padding="8dp"
+		android:gravity="center"
+		style="@style/PoolPal.Widget.Tab.Profile" />
+
+</RelativeLayout>
